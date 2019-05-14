@@ -2,4 +2,5 @@
 <p><%= @restaurant.stars %> étoiles</p>
 <p><%= @restaurant.address %></p>
 
+<%= link_to 'Modifier le restaurant', edit_restaurant_path(@restaurant) %>
 <%= link_to 'Retour', restaurants_path %>
